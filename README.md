@@ -1,7 +1,10 @@
-# hyperparameter-tuning
-DSC 550 Week 9 assignment - Hyperparameter Tuning
+# Hyperparameter Tuning
 
-Objectives for this assignment:
+## Project Overview
+The purpose of this project is to understand how to incorporate hyperparameter tuning to a given machine learning model. 
+
+
+## Objectives:
 1. Import the dataset and ensure that it loaded properly.
 2. Prepare the data for modeling by performing the following steps:
   1. Drop the column “Load_ID.”
@@ -15,4 +18,4 @@ Objectives for this assignment:
 8. Find the accuracy of the grid search best model on the test set. Note: It is possible that this will not be an improvement over the default model, but likely it will be.
 9. Now, repeat steps 6 and 7 with the same pipeline, but expand your search space to include logistic regression and random forest models.
 10. What are the best model and hyperparameters found in the grid search? Find the accuracy of this model on the test set.
-11. Summarize your results.
+11. Summarize the results.
